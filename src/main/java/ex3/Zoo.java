@@ -10,13 +10,13 @@ public class Zoo {
 	private List<Animal> animals;
 
 	/**
-	 * @param nom     : nom du zoo
+	 * @param nom : nom du zoo
 	 */
 	public Zoo(String nom) {
 		super();
 		this.nom = nom;
 	}
-	
+
 	/**
 	 * @param nom     : nom du zoo
 	 * @param animals : liste des animaux dans le zoo
@@ -65,18 +65,22 @@ public class Zoo {
 		this.nom = nom;
 	}
 
-	/** Getter pour l'attribut animals
+	/**
+	 * Getter pour l'attribut animals
+	 * 
 	 * @return the animals
 	 */
 	public List<Animal> getAnimals() {
 		return animals;
 	}
 
-	/** Setter pour l'attribut animals
+	/**
+	 * Setter pour l'attribut animals
+	 * 
 	 * @param animals the animals to set
 	 */
 	public void setAnimals(List<Animal> animals) {
 		this.animals = animals;
 	}
-	
+
 }
